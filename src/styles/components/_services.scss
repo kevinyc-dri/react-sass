@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  padding: 3rem;
+
+  &__item {
+    background-color: $primary-color;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+
+    &--img {
+      max-width: 150px;
+    }
+
+    &--p {
+      color: $pale-color;
+      font-weight: 600;;
+    }
+  }
+}
