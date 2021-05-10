@@ -1,0 +1,23 @@
+// Rest/Normalize Css
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import './base/variables';
+@import './components/header';
+@import './components/hero';
+@import './components/footer';
+
+body {
+	margin: 0;
+	@include default-font;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
